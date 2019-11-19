@@ -1,17 +1,17 @@
-body{
-    
-        background-image: url(media/colors.jpg); 
-        height: 100vh;
-        background-size: cover;
-        text-transform: uppercase;
-        text-align: center;
-        list-style: none;
-       
-
-    
-    
-    }
-    
-    
-    
-
+body {
+  background-image: linear-gradient(
+    to right, rgba(63, 135, 166, 0.5),
+    rgba(235, 248, 225, 0.5),
+    rgba(246, 157, 60, 0.5)
+  ), url(media/colors.jpg);
+  
+  height: 100vh;
+  background-size: cover;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+}
+.morecolors {
+  height: 25vh;
+  filter: drop-shadow(0 0 0.75rem #d32f2f);
+}
