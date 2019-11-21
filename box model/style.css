@@ -1,13 +1,22 @@
 html{
     font-size: 62.5%;
     font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
 }
+
+body{
    
+    background: no-repeat;
+}
+   .groovy{
+     height: 25vh;
+   }
     
 
 div{
-    background-image: url(casettes.jpg);
+    background-image: url(media/cassettes-header.jpg);
     background-size: cover;
-
-
 }
+
