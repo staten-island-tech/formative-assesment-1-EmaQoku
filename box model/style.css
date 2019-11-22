@@ -1,22 +1,33 @@
-html{
-    font-size: 62.5%;
-    font-family: 'Tomorrow', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    
-}
-
-body{
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
    
-    background: no-repeat;
 }
-   .groovy{
-     height: 25vh;
-   }
+html{
+    font-size: 62.5%; 
     
-
-div{
-    background-image: url(media/cassettes-header.jpg);
-    background-size: cover;
 }
+.header{
+     text-align: center;
+     height: 100vh;
+     position: relative;
+     background-image: url(media/cassettes-header.jpg);
+    background-size: cover;
+
+}
+.header-text{
+    font-family:  'Odibee Sans', cursive;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: auto;
+    letter-spacing: 2rem;
+}
+.position{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+
+  
 
