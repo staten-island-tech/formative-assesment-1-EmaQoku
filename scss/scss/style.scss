@@ -1,0 +1,17 @@
+@import "./header";
+$colors:(
+    primary: #333
+);
+  
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+$padding: 1.3rem;
+
+body{
+    background-color: rgba(color(primary), 0.4);
+}
+
+.header{
+    padding: $padding;
+}
