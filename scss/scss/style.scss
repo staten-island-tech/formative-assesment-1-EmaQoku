@@ -1,4 +1,4 @@
-@import "./header";
+/*@import "./header";
 $colors:(
     primary: #333
 );
@@ -14,4 +14,23 @@ body{
 
 .header{
     padding: $padding;
+}
+*/
+.flex-parent{
+    height: 60vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-child{
+    height: 20vh;
+    background-color: red;
+    margin: 10px;
+}
+#flex-grow{
+    flex-grow: 1;
+}
+#felx-grow-2{
+    flex-grow: 2;
 }
